@@ -244,6 +244,7 @@ font-family: Lato;
   width: 360px;
   background-color: #F8F8F8;
   position: relative;
+  margin-bottom: 30px;
 }
 .featured-item-wrp{
   margin: 25px 29px 20px 18px;
@@ -321,7 +322,7 @@ font-family: Lato;
   color: #F26376;
   font-size: 16px;
   line-height: 19px;
-  margin: 48px auto 95px;
+  margin: 18px auto 95px;
   justify-content: center;
 }
 .featured-btn:hover {
@@ -330,3 +331,184 @@ font-family: Lato;
   color: #fff;
 }
 /* BENEFITS */
+.benefits{
+  background-color: #222224;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.benefits-item{
+  width: 360px;
+  min-height: 134px;
+  margin: 103.5px auto;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.benefits-item-txt{
+  font-size: 19.96px;
+  line-height: 24px;
+  color: #FBFBFB;
+  text-align: center;
+  margin: 60px auto 16px;
+}
+.benefits-item-subtxt{
+  font-weight: 300;
+  font-size: 13.972px;
+  line-height: 17px;
+  text-align: center;
+  color: #FBFBFB;
+}
+.benefits-item:nth-child(1) {
+  margin-right: 30px;
+  background-image: url('images/delivery-icon.svg');
+}
+.benefits-item:nth-child(2) {
+  margin-right: 30px;
+  background-image: url('images/sales-icon.svg');
+}
+.benefits-item:last-child {
+  background-image: url('images/crown-icon.svg');
+}
+/* SUBSCRIBE */
+.subscribe{
+  background-image: url("images/photo-subscribe.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: #F3EEEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  min-height: 448px;
+  padding: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.subscribe-info {
+  width: 360px;
+  max-height: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.subscribe-author{
+  background-image: url("images/author.png");
+  background-repeat: no-repeat;
+  height: 96px;
+  width: 96px;
+  margin: 0 0 30px 0;
+}
+.subscribe-info-txt {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #222224;
+}
+.subscribe-info-txt span {
+  font-style: italic;
+}
+.subscribe-form-wrp {
+  width: 355px;
+  margin-left: 360px;
+}
+.subscribe-form-title,
+.subscribe-form-subtitle {
+  color: #222224;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+}
+.subscribe-form-title {
+  display: block;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40,13px;
+}
+.subscribe-form-subtitle {
+  display: block;
+  margin: 0 0 32px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30,1px;
+}
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 356px;
+}
+.subscribe-form-email {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px 0 0 20px ;
+  background-color: #E1E1E1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16,8px;
+  color: #222224;
+  opacity: 0.67;
+}
+.subscribe-form-btn {
+  display: block;
+  padding: 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background-color: #F16D7F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16,8px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.subscribe-form-btn:hover {
+  background-color: #fff;
+  color: #F16D7F;
+}
+.subscribe-form-btn:active {
+  background-color: #F16D7F;
+  color: #fff;
+}
+/* FOOTER */
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 79px;
+  padding: 20px 235px;
+  box-sizing: border-box;
+  background-color: #222224;
+}
+.page-footer-txt {
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #FBFBFB;
+}
+.page-footer-socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 148px;
+}
+.page-footer-socials-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+}
