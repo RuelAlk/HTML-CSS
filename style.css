@@ -203,15 +203,57 @@ font-family: Lato;
 .page-header-left-wrp{
   position: relative;
 }
-.top-bg{
-  background: #F1E4E6;
-  width: 100%
+
+
+/* BANNER */
+.top-bg {
+  width: 100%;
   min-height: 764px;
-}
-.top-bg-container{
-  display:flex;
-  justify-content: space-evenly;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
+  box-sizing: border-box;
+  background-color: #F1E4E6;
+  background-image: url('images/promo-man.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom left;
+}
+.brand-title-wrp {
+  width: 377px;
+
+  text-transform: uppercase;
+  position: relative;
+}
+.brand-title-wrp:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 92px;
+  background-color: #F16D7F;
+  position: absolute;
+  top: 0;
+  left: -28px;
+}
+.brand-title {
+  display: block;
+  width: 100%;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 57.6px;
+  color: #222222;
+}
+.brand-subtitle {
+  display: block;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38.4px;
+}
+.padding-site {
+  padding-left: 14.375%;
+  padding-right: 14.375%;
+  box-sizing: border-box;
 }
 /* FEATURED */
 
@@ -511,4 +553,9 @@ font-family: Lato;
   width: 32px;
   height: 32px;
   background-color: #fff;
+}
+@media(max-width: 1024px;){
+  .padding-site{
+    padding-right: 5%;
+  }
 }
