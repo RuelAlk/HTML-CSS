@@ -670,7 +670,6 @@ font-family: Lato;
   list-style: none;
   text-transform: uppercase;
 }
-
 .breadcrumbs li{
   display: inline;
   font-weight: 300;
@@ -686,7 +685,6 @@ font-family: Lato;
 .breadcrumbs li a {
   text-decoration: none;
 }
-
 .breadcrumbs li a:hover {
   color: #F16D7F;
 }
@@ -695,4 +693,35 @@ font-family: Lato;
   font-size: 14px;
   line-height: 17px;
   color: #F16D7F;
+}
+/* CATALOG/FILTER */
+.cart-btn{
+  position: relative;
+}
+.cart-btn,
+.account-btn{
+  border: none;
+  background-color: transparent;
+}
+.cart-btn:hover svg,
+.account-btn:hover svg{
+  fill: #F16D7F;
+}
+
+.cart-btn-icon,
+.account-btn-icon{
+  fill:#E8E8E8;
+}
+.cart-btn-txt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  background-color: #F16D7F;
+  border-radius: 50%;
+  color: #fff;
+  top: -7px;
+  right: -7px;
 }
