@@ -156,7 +156,7 @@ font-family: Lato;
   width: 100%;
   min-height: 75px;
   background: #222222;
-  padding: 30px 0 22px 0;
+  padding: 20px 0 22px 0;
   box-sizing: border-box;
 }
 .page-header-search-form{
@@ -219,7 +219,6 @@ font-family: Lato;
   box-sizing: border-box;
   background-color: #fff;
   list-style: none;
-
   position: absolute;
   top: 95px;
   right: 0;
@@ -254,10 +253,6 @@ font-family: Lato;
 .menu-list-close-btn:hover::before,
 .menu-list-close-btn:hover::after {
   background: #B7B6B6;
-}
-.menu-list-close-btn:active::before,
-.menu-list-close-btn:active::after{
-  background: #535353;
 }
 .menu-list-title {
   display: block;
@@ -463,12 +458,14 @@ font-family: Lato;
   font-size: 16px;
   line-height: 19px;
   margin: 18px auto 95px;
-  justify-content: center;
 }
 .featured-btn:hover {
   background-color: #F26376;
   border: 2px solid #fff;
   color: #fff;
+}
+.featured-btn-wrp{
+  margin: 0 auto;
 }
 /* BENEFITS */
 .benefits{
@@ -650,4 +647,52 @@ font-family: Lato;
   width: 32px;
   height: 32px;
   background-color: #fff;
+}
+/* CATALOG/BREADCRUMB */
+.breadcrumb{
+  min-height: 148px;
+  width: 100%;
+  background-color: #F8F3F4;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.breadcrumbs-title{
+  text-transform: uppercase;
+  color: #F16D7F;
+  font-size: 24px;
+  line-height: 29px;
+}
+.breadcrumbs{
+  padding: 10px 16px;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.breadcrumbs li{
+  display: inline;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+}
+.breadcrumbs li+li:before {
+  padding: 1px;
+  color: #636363;
+  content: "/\00a0";
+}
+.breadcrumbs li a {
+  text-decoration: none;
+}
+
+.breadcrumbs li a:hover {
+  color: #F16D7F;
+}
+.breadcrumbs li:last-child a{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
 }
