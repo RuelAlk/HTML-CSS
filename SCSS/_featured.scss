@@ -1,0 +1,119 @@
+/* FEATURED */
+.featured{
+  margin-top: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.featured-title{
+  margin-bottom: 6px;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.featured-subtitle{
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9F9F9F;
+  margin-bottom: 48px;
+  display: block;
+  width: 100%;
+}
+.featured-item{
+  width: 360px;
+  background-color: #F8F8F8;
+  position: relative;
+  margin-bottom: 30px;
+}
+.featured-item-wrp{
+  margin: 25px 29px 20px 18px;
+}
+.featured-item-name{
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.featured-item-txt{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5D5D5D;
+  text-align: left;
+  margin: 13px auto 18px;
+}
+.featured-item-price{
+  font-size: 16px;
+  line-height: 19px;
+  color: #F16D7F;
+  text-align: left;
+}
+.featured-item-btn {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 38.3%;
+  min-height: 43px;
+  border: 1px solid #FFFFFF;
+  background: transparent;
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 188px;
+  left: 32.7%;
+}
+.featured-item:hover .featured-item-btn {
+  display: flex;
+}
+
+.featured-item:hover .featured-item-btn:hover {
+  background-color: #ccc;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.featured-item:hover .featured-item-btn:hover svg {
+  fill: #000;
+}
+
+.featured-item:hover .featured-item-btn:active {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.featured-item:hover .featured-item-btn:active svg {
+  fill: #fff;
+}
+
+.featured-item:hover .featured-item-photo {
+  filter: brightness(50%);
+}
+
+.featured-btn{
+  text-align: center;
+  width: 212px;
+  padding: 14.5px;
+  background-color: #fff;
+  border: 2px solid #F26376;
+  color: #F26376;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 18px auto 95px;
+}
+.featured-btn:hover {
+  background-color: #F26376;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.featured-btn-wrp{
+  margin: 0 auto;
+}

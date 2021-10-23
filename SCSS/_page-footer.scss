@@ -1,0 +1,30 @@
+/* FOOTER */
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 79px;
+  padding: 20px 235px;
+  box-sizing: border-box;
+  background-color: #222224;
+}
+.page-footer-txt {
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #FBFBFB;
+}
+.page-footer-socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 148px;
+}
+.page-footer-socials-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+}
