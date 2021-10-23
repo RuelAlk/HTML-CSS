@@ -2,6 +2,8 @@
 @import "_page-footer.scss";
 @import "_featured.scss";
 @import "_filter.scss";
+@import "_show.scss";
+@import "_description.scss";
 * {
 margin: 0;
 padding: 0;
@@ -304,7 +306,6 @@ font-family: Lato;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
-  color: #636363;
 }
 .breadcrumbs li+li:before {
   padding: 1px;
@@ -313,6 +314,7 @@ font-family: Lato;
 }
 .breadcrumbs li a {
   text-decoration: none;
+  color: #636363;
 }
 .breadcrumbs li a:hover {
   color: #F16D7F;

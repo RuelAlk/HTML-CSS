@@ -695,6 +695,75 @@ button:focus-visible {
 #switch-price {
   display: none; }
 
+.show {
+  width: 100%;
+  min-height: 777px;
+  background-color: #F7F7F7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .show__switch {
+    width: 47px;
+    height: 47px;
+    background-color: #2A2A2A22;
+    position: relative; }
+  .show__switch svg {
+    fill: #000;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 11px;
+    left: 16px; }
+  .show__switch:hover svg {
+    fill: #F16D7F; }
+
+.description {
+  width: 100%;
+  max-height: 1141px;
+  padding: 54.6px 50px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1170px;
+  width: 100%;
+  margin: -62px auto 128px;
+  background-color: #fff;
+  position: relative;
+  border: 1px solid #EAEAEA; }
+  .description__category {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    text-transform: uppercase;
+    margin-bottom: 27px; }
+  .description__name {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    margin-bottom: 49px; }
+  .description__txt {
+    max-width: 555px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    margin-bottom: 33px; }
+  .description__price {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+    margin-bottom: 64px; }
+  .description__line {
+    width: 60%;
+    margin-bottom: 64px; }
+  .description__filter {
+    margin-bottom: 48px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -991,8 +1060,7 @@ button:focus-visible {
   display: inline;
   font-weight: 300;
   font-size: 14px;
-  line-height: 17px;
-  color: #636363; }
+  line-height: 17px; }
 
 .breadcrumbs li + li:before {
   padding: 1px;
@@ -1000,7 +1068,8 @@ button:focus-visible {
   content: "/\00a0"; }
 
 .breadcrumbs li a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #636363; }
 
 .breadcrumbs li a:hover {
   color: #F16D7F; }
