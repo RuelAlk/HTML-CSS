@@ -331,7 +331,33 @@ font-family: Lato;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
+  margin-bottom: 48px;
 }
+.pagination{
+  border: 1px solid #EBEBEB;
+  padding: 12.5px 16px;
+  border-radius: 10px;
+  margin: 0 auto;
+  & a{
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #C4C4C4;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px
+  }
+}
+
+.pagination a svg{
+  fill: #000;
+}
+.pagination a:hover{
+  color: #EF5B70;
+}
+.pagination a svg:hover{
+  fill: #EF5B70;
+}
+
 /* ICONS */
 .cart-btn{
   position: relative;
