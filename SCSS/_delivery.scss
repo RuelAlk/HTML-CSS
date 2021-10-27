@@ -1,0 +1,94 @@
+.delivery{
+  width: 40%;
+  margin-top: 113px;
+  padding: 0 0 20px 128px;
+}
+.adress{
+  margin-bottom: 57px;
+  &__input{
+    width: 360px;
+    height: 16px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #A4A4A4;
+    padding: 13.5px 17px;
+    color: #A4A4A4;
+  }
+  &__submit{
+    width: 101px;
+    height: 35px;
+    padding: 11.5px 14px;
+    background-color: #fff;
+    border: 1px solid #A4A4A4;
+    color: #A4A4A4;
+    text-align: center;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    &:hover{
+      background-color: #A4A4A4;
+      color: #fff;
+    }
+    &:active{
+      background-color: #fff;
+      border: 1px solid #A4A4A4;
+      color: #000;
+    }
+  }
+}
+.checkout{
+  width: 100%;
+  background-color: #F5F3F3;
+  height: 214px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 40px 43.5px;
+  box-sizing: border-box;
+  &__proceed{
+    text-transform: uppercase;
+    background-color: #F16D7F;
+    color: #fff;
+    width: 100%;
+    padding: 15.5px 42px;
+    border: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    &:hover{
+      background-color: #fff;
+      color: #F16D7F;
+      border: 1px solid #F16D7F;
+    }
+    &:active{
+      background-color: #F16D7F;
+      color: #fff;
+    }
+  }
+  &__line{
+    width: 100%;
+    margin-bottom: 17px;
+  }
+  &__subtotal{
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    text-align: right;
+    margin-bottom: 12px;
+  }
+  &__grandtotal{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    text-align: right;
+    margin-bottom: 21px;
+    & span{
+      font-size: 16px;
+      line-height: 19px;
+      color: #F16D7F;
+      font-weight: bold;
+    }
+  }
+}
