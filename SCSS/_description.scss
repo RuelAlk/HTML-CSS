@@ -17,7 +17,11 @@
     line-height: 17px;
     color: #F16D7F;
     text-transform: uppercase;
-    margin-bottom: 27px;
+    margin-bottom: 12px;
+  }
+  &__divider{
+    fill: #EF5B70;
+    margin-bottom: 15px;
   }
   &__name{
     font-weight: 300;
@@ -45,9 +49,129 @@
   }
   &__line{
     width: 60%;
-    margin-bottom: 64px;
   }
-  &__filter{
-    margin-bottom: 48px;
+  &__btn{
+    text-align: center;
+    width: 212px;
+    padding: 14.5px;
+    background-color: #fff;
+    border: 2px solid #F26376;
+    color: #F26376;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 auto 95px;
   }
+  &__btn:hover{
+    background-color: #F26376;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  &__btn svg{
+    fill: #EF5B70;
+    position: relative;
+    top: 5px;
+    left: -12px;
+  }
+  &__btn:hover svg{
+    fill: #fff;
+  }
+
+  &__btn__wrp{
+    margin: 0 auto;
+  }
+}
+.description__filter{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 132px;
+  box-sizing: border-box;
+  &__wrp{
+    padding: 10px 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__color{
+    width: 156px;
+    border: none;
+    background-color: transparent;
+  }
+  &__size{
+    width: 134px;
+    border: none;
+    background-color: transparent;
+  }
+  &__size__btn{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #6F6E6E;
+    background-color: transparent;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+  }
+  &__size__btn:hover{
+    color: #F16D7F;
+  }
+  &__size__btn:hover svg{
+    fill: currentColor;
+  }
+  &__size__btn:active {
+    color: black;
+  }
+  &__size__btn:active svg {
+    fill: currentColor;
+  }
+  &__size__btn svg{
+    fill: #6F6E6E;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+  }
+  &__quantity{
+    width: 156px;
+    border: none;
+    background-color: transparent;
+    &__btn {
+        display: block;
+        width: 100%;
+        border: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16.8px;
+        color: #6F6E6E;
+        background-color: transparent;
+        text-align: left;
+        text-transform: uppercase;
+        position: relative;
+      }
+    &__btn svg {
+        fill: #6F6E6E;
+        position: absolute;
+        top: 40%;
+        left: 57%;
+      }
+    &__btn:hover {
+        color: #F16D7F;
+      }
+    &__btn:hover svg {
+        fill: currentColor;
+      }
+    &__btn:active {
+        color: black;
+      }
+    &__btn:active svg {
+        fill: currentColor;
+    }
+  }
+}
+#switch-quantity{
+  display: none;
 }
