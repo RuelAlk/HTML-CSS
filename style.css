@@ -706,7 +706,8 @@ button:focus-visible {
     width: 47px;
     height: 47px;
     background-color: #2A2A2A22;
-    position: relative; }
+    position: relative;
+    border: none; }
   .show__switch svg {
     fill: #000;
     justify-content: center;
