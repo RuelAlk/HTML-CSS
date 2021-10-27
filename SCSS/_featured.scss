@@ -69,7 +69,14 @@
   position: absolute;
   top: 188px;
   left: 32.7%;
+  & svg{
+    position: relative;
+    top: 1px;
+    left: -11px;
+    fill: #fff;
+  }
 }
+
 .featured-item:hover .featured-item-btn {
   display: flex;
 }
