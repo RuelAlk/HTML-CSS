@@ -151,7 +151,7 @@
   background-color: #fff;
   list-style: none;
   position: absolute;
-  top: 95px;
+  top: 83px;
   right: 0;
   z-index: 20;
 }
@@ -184,6 +184,10 @@
 .menu-list-close-btn:hover::before,
 .menu-list-close-btn:hover::after {
   background: #B7B6B6;
+}
+.menu-list-close-btn:active::before,
+.menu-list-close-btn:active::after {
+  background: #000;
 }
 .menu-list-title {
   display: block;
@@ -227,4 +231,7 @@
 }
 .menu-sublist-item:active a {
   text-decoration: none;
+}
+.list-index{
+  top: 76px;
 }
