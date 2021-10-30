@@ -1046,6 +1046,93 @@ button:focus-visible {
       color: #F16D7F;
       font-weight: bold; }
 
+.registration-wrp {
+  display: flex;
+  justify-content: space-between; }
+
+.gender {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+  margin-right: 20px; }
+
+.female {
+  margin-right: 200px; }
+
+.personal {
+  width: 40%;
+  min-height: 650px;
+  padding-top: 64px; }
+  .personal__info {
+    width: 360px; }
+    .personal__info__input {
+      border: 1px solid #A4A4A4;
+      width: 340px;
+      height: 45px;
+      margin-bottom: 20px;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;
+      color: #B1B1B1;
+      padding-left: 20px; }
+    .personal__info__label {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 19px;
+      color: #222222; }
+    .personal__info__radio {
+      margin: 11px 10px 33px 0; }
+    .personal__info__txt {
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;
+      color: #B1B1B1;
+      margin-bottom: 40px; }
+    .personal__info button {
+      background-color: #F16D7F;
+      color: #fff;
+      width: 167px;
+      height: 50px;
+      text-transform: uppercase;
+      border: none; }
+      .personal__info button:hover {
+        background-color: #fff;
+        color: #F16D7F;
+        border: 1px solid #F16D7F; }
+        .personal__info button:hover svg {
+          fill: #F16D7F; }
+      .personal__info button:active {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #000; }
+        .personal__info button:active svg {
+          fill: #000; }
+      .personal__info button svg {
+        fill: #fff; }
+
+.marg {
+  margin-top: 20px; }
+
+.ad {
+  width: 60%;
+  min-height: 650px; }
+  .ad__title, .ad__txt, .ad li {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px; }
+  .ad__title {
+    text-transform: uppercase;
+    margin: 64px auto 22px 0; }
+  .ad__txt {
+    margin-bottom: 20px; }
+  .ad li {
+    margin-bottom: 16px;
+    padding-left: 22px; }
+  .ad ul {
+    list-style-type: "\2713";
+    margin-left: 20px; }
+
 * {
   margin: 0;
   padding: 0;
