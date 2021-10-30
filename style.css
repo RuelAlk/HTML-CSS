@@ -734,6 +734,11 @@ button:focus-visible {
   background-color: #fff;
   position: relative;
   border: 1px solid #EAEAEA; }
+  .description__div {
+    width: 63px;
+    height: 3px;
+    background-color: #EF5B70;
+    margin-bottom: 15px; }
   .description__category {
     font-weight: 300;
     font-size: 14px;
@@ -741,9 +746,6 @@ button:focus-visible {
     color: #F16D7F;
     text-transform: uppercase;
     margin-bottom: 12px; }
-  .description__divider {
-    fill: #EF5B70;
-    margin-bottom: 15px; }
   .description__name {
     font-weight: 300;
     font-size: 18px;
@@ -885,12 +887,24 @@ button:focus-visible {
     width: 100%;
     height: 306px;
     margin-bottom: 40px;
-    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21); }
-    .goods__item__img {
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    position: relative;
+    display: flex; }
+    .goods__item svg {
+      fill: #575757;
+      position: absolute;
+      top: 28px;
+      right: 22px; }
+      .goods__item svg:hover {
+        fill: #A4A4A4; }
+      .goods__item svg:active {
+        fill: #000; }
+    .goods__item__left {
       width: 262px;
-      height: 100%;
-      float: left;
-      display: block; }
+      height: 100%; }
+      .goods__item__left img {
+        width: 100%;
+        height: 100%; }
     .goods__item__name {
       font-size: 24px;
       line-height: 29px;
@@ -898,26 +912,31 @@ button:focus-visible {
       text-transform: uppercase;
       font-style: normal;
       font-weight: normal;
-      margin: 22px 97px 62px 293px; }
+      margin: 22px 97px 62px 30px; }
     .goods__item__info {
       justify-content: center;
       align-items: flex-start;
       flex-direction: column;
-      margin-bottom: 6px; }
+      margin-bottom: 6px;
+      position: relative; }
       .goods__item__info p {
         color: #575757;
         font-size: 22px;
         line-height: 26px;
-        margin: 0 97px 6px 293px; }
+        margin: 0 97px 6px 30px; }
 
 .quantity {
-  display: inline-block;
+  position: absolute;
   min-width: 44px;
-  font-size: 18px;
-  line-height: 22px;
-  color: #656565;
-  border: 1px solid #EAEAEA;
-  text-align: center; }
+  bottom: 0px;
+  right: 124px; }
+  .quantity__input {
+    font-size: 18px;
+    line-height: 22px;
+    width: 44px;
+    text-align: center;
+    color: #656565;
+    border: 1px solid #EAEAEA; }
 
 .price-span {
   color: #EF5B70; }
