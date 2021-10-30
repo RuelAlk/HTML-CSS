@@ -11,6 +11,12 @@
   background-color: #fff;
   position: relative;
   border: 1px solid #EAEAEA;
+  &__div{
+    width: 63px;
+    height: 3px;
+    background-color: #EF5B70;
+    margin-bottom: 15px;
+  }
   &__category {
     font-weight: 300;
     font-size: 14px;
@@ -18,10 +24,6 @@
     color: #F16D7F;
     text-transform: uppercase;
     margin-bottom: 12px;
-  }
-  &__divider{
-    fill: #EF5B70;
-    margin-bottom: 15px;
   }
   &__name{
     font-weight: 300;
