@@ -24,3 +24,11 @@
     fill: #F16D7F;
   }
 }
+@media (max-width: 768px){
+  .show{
+    height: 624px;
+    &__img{
+      height: 80%;
+    }
+  }
+}

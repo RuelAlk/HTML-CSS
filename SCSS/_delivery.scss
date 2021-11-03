@@ -2,9 +2,18 @@
   width: 40%;
   margin-top: 113px;
   padding: 0 0 20px 128px;
+  display: flex;
+  flex-direction: column;
 }
 .adress{
   margin-bottom: 57px;
+  &__label{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    text-transform: uppercase;
+  }
   &__input{
     width: 360px;
     height: 16px;
@@ -89,6 +98,34 @@
       line-height: 19px;
       color: #F16D7F;
       font-weight: bold;
+    }
+  }
+}
+.first-input{
+  margin-top: 20px;
+}
+
+@media (max-width: 768px){
+  .delivery{
+    width: 100%;
+    margin-top: 64px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 70px;
+  }
+  .adress{
+    margin-right: 15px;
+    width: 50%;
+    &__input{
+      width: 326px;
+    }
+  }
+  .checkout{
+    margin-top: 39px;
+    width: 360px;
+    &__proceed{
+      padding: 15.5px 35px;
     }
   }
 }

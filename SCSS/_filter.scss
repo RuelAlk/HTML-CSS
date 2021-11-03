@@ -335,3 +335,13 @@ button:focus-visible{
 #switch-price {
   display: none;
 }
+
+@media (max-width: 768px){
+  .filter-sort{
+    justify-content: space-between;
+  }
+  .filter-sort-wrp{
+    margin-left: 55%;
+  }
+
+}
