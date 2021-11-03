@@ -230,6 +230,12 @@
 .list-index {
   top: 76px; }
 
+@media (max-width: 375px) {
+  .account-btn {
+    display: none; }
+
+  .cart-btn {
+    display: none; } }
 /* FOOTER */
 .page-footer {
   display: flex;
@@ -263,6 +269,15 @@
 @media (max-width: 768px) {
   .page-footer {
     padding: 20px 5%; } }
+@media (max-width: 375px) {
+  .page-footer {
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding: 0 0 10px; }
+
+  .page-footer-socials {
+    margin-top: 40px;
+    margin-bottom: 40px; } }
 /* FEATURED */
 .featured {
   margin-top: 96px;
@@ -1662,5 +1677,57 @@ button:focus-visible {
 
   .subscribe-form-wrp {
     margin-left: 0; } }
+@media (max-width: 375px) {
+  /* BANNER */
+  .top-bg {
+    background-image: none; }
+
+  .padding-site {
+    padding-left: 0%; }
+
+  /* CATEGORIES */
+  .categories {
+    margin-top: 64px;
+    flex-direction: column; }
+
+  .categories-item {
+    width: 100%;
+    min-height: 247px;
+    background-size: cover; }
+
+  .categories-item:nth-child(1),
+  .categories-item:nth-child(2),
+  .categories-item:nth-child(3) {
+    margin-top: 32px; }
+
+  .categories-item:last-child {
+    margin-top: 32px;
+    min-height: 111px;
+    background-size: cover; }
+
+  /* BENEFITS */
+  .benefits-item:nth-child(1),
+  .benefits-item:nth-child(2) {
+    margin-right: 0; }
+
+  /* SUBSCRIBE */
+  .subscribe {
+    flex-direction: column;
+    padding: 64px 0 140px; }
+
+  .subscribe-info {
+    margin-bottom: 50px; }
+
+  .subscribe-info-txt {
+    font-size: 18px;
+    line-height: 22px; }
+
+  .subscribe-form-title {
+    font-size: 24px;
+    line-height: 37px; }
+
+  .subscribe-form-subtitle {
+    font-size: 14px;
+    line-height: 21px; } }
 
 /*# sourceMappingURL=style.css.map */
