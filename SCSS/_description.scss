@@ -24,6 +24,10 @@
     color: #F16D7F;
     text-transform: uppercase;
     margin-bottom: 12px;
+    background-image: url("images/divider.svg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 12px;
   }
   &__name{
     font-weight: 300;

@@ -752,7 +752,11 @@ button:focus-visible {
     line-height: 17px;
     color: #F16D7F;
     text-transform: uppercase;
-    margin-bottom: 12px; }
+    margin-bottom: 12px;
+    background-image: url("images/divider.svg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 12px; }
   .description__name {
     font-weight: 300;
     font-size: 18px;
@@ -897,17 +901,20 @@ button:focus-visible {
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
     position: relative;
     display: flex; }
-    .goods__item svg {
-      fill: #575757;
-      position: absolute;
-      top: 28px;
-      right: 22px; }
-      .goods__item svg:hover {
-        fill: #A4A4A4;
-        transform: scale(1.2); }
-      .goods__item svg:active {
-        fill: #000;
-        transform: scale(1.3); }
+    .goods__item button {
+      background-color: none;
+      border: none; }
+      .goods__item button svg {
+        fill: #575757;
+        position: absolute;
+        top: 28px;
+        right: 22px; }
+        .goods__item button svg:hover {
+          fill: #A4A4A4;
+          transform: scale(1.2); }
+        .goods__item button svg:active {
+          fill: #000;
+          transform: scale(1.3); }
     .goods__item__left {
       width: 262px;
       height: 100%; }
