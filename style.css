@@ -260,6 +260,9 @@
   height: 32px;
   background-color: #fff; }
 
+@media (max-width: 768px) {
+  .page-footer {
+    padding: 20px 5%; } }
 /* FEATURED */
 .featured {
   margin-top: 96px;
@@ -1308,7 +1311,7 @@ button:focus-visible {
 .subscribe {
   background-image: url("images/photo-subscribe.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-color: #F3EEEF;
   display: flex;
@@ -1525,5 +1528,65 @@ button:focus-visible {
   color: #fff;
   top: -7px;
   right: -7px; }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 95%; }
+
+  /* BANNER */
+  .top-bg {
+    min-height: 367px; }
+
+  .brand-title-wrp {
+    width: 320px; }
+
+  .brand-title {
+    font-size: 44px;
+    line-height: 53px; }
+
+  .brand-subtitle {
+    font-size: 24px;
+    line-height: 29px; }
+
+  .padding-site {
+    padding-right: 0%; }
+
+  /* CATEGORIES */
+  .categories {
+    margin-top: 20px; }
+
+  .categories-item {
+    width: 230px;
+    min-height: 167px;
+    background-size: cover; }
+
+  .categories-item:nth-child(1),
+  .categories-item:nth-child(2) {
+    margin-right: 19px; }
+
+  .categories-item:last-child {
+    margin-top: 20px;
+    min-height: 116px; }
+
+  /* BENEFITS */
+  .benefits {
+    max-height: 768px;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 32px; }
+
+  .benefits-item {
+    margin: 48px 0 0 0; }
+
+  /* SUBSCRIBE */
+  .subscribe {
+    flex-direction: column;
+    padding: 64px 0 140px; }
+
+  .subscribe-info {
+    margin-bottom: 50px; }
+
+  .subscribe-form-wrp {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -28,3 +28,9 @@
   height: 32px;
   background-color: #fff;
 }
+
+@media (max-width: 768px){
+  .page-footer {
+    padding: 20px 5%;
+  }
+}
