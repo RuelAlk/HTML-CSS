@@ -171,7 +171,7 @@ font-family: Lato;
 .subscribe{
   background-image: url("images/photo-subscribe.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-color: #F3EEEF;
   display: flex;
@@ -392,4 +392,139 @@ font-family: Lato;
   color: #fff;
   top: -7px;
   right: -7px;
+}
+
+@media (max-width: 768px){
+  .container{
+    max-width: 95%;
+  }
+  /* BANNER */
+  .top-bg {
+    min-height: 367px;
+  }
+  .brand-title-wrp {
+    width: 320px;
+  }
+  .brand-title {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .brand-subtitle {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .padding-site {
+    padding-right: 0%;
+  }
+  /* CATEGORIES */
+  .categories{
+    margin-top: 20px;
+  }
+  .categories-item{
+    width: 230px;
+    min-height: 167px;
+    background-size: cover;
+  }
+  .categories-item:nth-child(1),
+  .categories-item:nth-child(2){
+    margin-right: 19px;
+  }
+  .categories-item:last-child {
+    margin-top: 20px;
+    min-height: 116px;
+  }
+  /* BENEFITS */
+  .benefits{
+    max-height: 768px;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+  .benefits-item{
+    margin: 48px 0 0 0;
+  }
+  /* SUBSCRIBE */
+  .subscribe{
+    flex-direction: column;
+    padding: 64px 0 140px;
+  }
+  .subscribe-info {
+    margin-bottom: 50px;
+  }
+  .subscribe-form-wrp {
+    margin-left: 0;
+  }
+
+}
+@media (max-width: 375px){
+  /* BANNER */
+  .top-bg {
+    background-image: none;
+  }
+  .padding-site {
+    padding-left: 0%;
+  }
+  /* CATEGORIES */
+  .categories{
+    margin-top: 64px;
+    flex-direction: column;
+  }
+  .categories-item{
+    width: 100%;
+    min-height: 247px;
+    background-size: cover;
+  }
+  .categories-item:nth-child(1),
+  .categories-item:nth-child(2),
+  .categories-item:nth-child(3){
+    margin-top: 32px;
+  }
+  .categories-item:last-child {
+    margin-top: 32px;
+    min-height: 111px;
+    background-size: cover;
+  }
+
+  /* BENEFITS */
+  .benefits-item:nth-child(1),
+  .benefits-item:nth-child(2) {
+    margin-right: 0;
+  }
+  /* SUBSCRIBE */
+  .subscribe{
+    flex-direction: column;
+    padding: 64px 0 140px;
+  }
+  .subscribe-info {
+    margin-bottom: 50px;
+  }
+  .subscribe-info-txt{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .subscribe-form-title {
+    font-size: 24px;
+    line-height: 37px;
+  }
+  .subscribe-form-subtitle {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  /* CATALOG/BREADCRUMB */
+
+  .breadcrumb-wrp{
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .breadcrumbs-title{
+    margin: 24px auto 32px;
+  }
+  .breadcrumbs{
+    padding: 0;
+  }
+  /* PAGINATION */
+  .pagination a{
+      padding: 8px 16px 0 0;
+  }
+
 }

@@ -124,3 +124,9 @@
 .featured-btn-wrp{
   margin: 0 auto;
 }
+
+@media (max-width: 768px){
+  .product__last{
+    display: none;
+  }
+}

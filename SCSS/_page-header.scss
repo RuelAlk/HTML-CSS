@@ -235,3 +235,11 @@
 .list-index{
   top: 76px;
 }
+@media (max-width: 375px){
+  .account-btn{
+    display: none;
+  }
+  .cart-btn{
+    display: none;
+  }
+}

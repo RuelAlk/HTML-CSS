@@ -335,3 +335,56 @@ button:focus-visible{
 #switch-price {
   display: none;
 }
+
+@media (max-width: 768px){
+  .filter-sort{
+    justify-content: space-between;
+  }
+  .filter-sort-wrp{
+    margin-left: 55%;
+  }
+}
+@media (max-width: 375px){
+  .filter{
+    width: 40px;
+    padding: 0;
+  }
+  .filter span{
+    display: none;
+  }
+  .filter-sort{
+    width: 40px;
+  }
+  .filter-sort-wrp{
+    margin-left: 260%;
+    justify-content: space-between;
+  }
+  .filter-btn svg {
+    width: 30px;
+    height: 21px;
+  }
+  .list-trend {
+    width: 115px;
+  }
+  .list-size {
+    width: 50px;
+  }
+  .list-price {
+    width: 63px;
+  }
+  .list-trend-btn-title,
+  .list-size-btn-title,
+  .list-price-btn-title{
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .list-trend-btn-title svg {
+    left: 87%;
+  }
+  .list-size-btn-title svg {
+    left: 65%;
+  }
+  .list-price-btn-title svg {
+    left: 65%;
+  }
+}

@@ -111,3 +111,16 @@
     background-color: #fff;
   }
 }
+@media (max-width: 768px){
+  .shopping_cart{
+    flex-direction: column;
+  }
+  .goods{
+    width: 100%;
+  }
+  .goods_btn_wrp{
+    margin-top: 28px;
+    margin-bottom: 0;
+    justify-content: space-around;
+  }
+}
