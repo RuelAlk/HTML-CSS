@@ -732,6 +732,48 @@ button:focus-visible {
 
   .filter-sort-wrp {
     margin-left: 55%; } }
+@media (max-width: 375px) {
+  .filter {
+    width: 40px;
+    padding: 0; }
+
+  .filter span {
+    display: none; }
+
+  .filter-sort {
+    width: 40px; }
+
+  .filter-sort-wrp {
+    margin-left: 260%;
+    justify-content: space-between; }
+
+  .filter-btn svg {
+    width: 30px;
+    height: 21px; }
+
+  .list-trend {
+    width: 115px; }
+
+  .list-size {
+    width: 50px; }
+
+  .list-price {
+    width: 63px; }
+
+  .list-trend-btn-title,
+  .list-size-btn-title,
+  .list-price-btn-title {
+    font-size: 12px;
+    line-height: 14px; }
+
+  .list-trend-btn-title svg {
+    left: 87%; }
+
+  .list-size-btn-title svg {
+    left: 65%; }
+
+  .list-price-btn-title svg {
+    left: 65%; } }
 .show {
   width: 100%;
   min-height: 777px;
@@ -760,6 +802,12 @@ button:focus-visible {
     height: 624px; }
     .show__img {
       height: 80%; } }
+@media (max-width: 375px) {
+  .show__img {
+    margin-top: -15%;
+    margin-left: -20%;
+    object-fit: cover;
+    max-width: 100%; } }
 .description {
   width: 100%;
   max-height: 1141px;
@@ -1728,6 +1776,21 @@ button:focus-visible {
 
   .subscribe-form-subtitle {
     font-size: 14px;
-    line-height: 21px; } }
+    line-height: 21px; }
+
+  /* CATALOG/BREADCRUMB */
+  .breadcrumb-wrp {
+    flex-direction: column;
+    justify-content: flex-start; }
+
+  .breadcrumbs-title {
+    margin: 24px auto 32px; }
+
+  .breadcrumbs {
+    padding: 0; }
+
+  /* PAGINATION */
+  .pagination a {
+    padding: 8px 16px 0 0; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -32,3 +32,11 @@
     }
   }
 }
+@media (max-width: 375px){
+  .show__img{
+    margin-top: -15%;
+    margin-left: -20%;
+    object-fit: cover;
+    max-width: 100%;
+  }
+}

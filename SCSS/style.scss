@@ -510,5 +510,21 @@ font-family: Lato;
     font-size: 14px;
     line-height: 21px;
   }
+  /* CATALOG/BREADCRUMB */
+
+  .breadcrumb-wrp{
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .breadcrumbs-title{
+    margin: 24px auto 32px;
+  }
+  .breadcrumbs{
+    padding: 0;
+  }
+  /* PAGINATION */
+  .pagination a{
+      padding: 8px 16px 0 0;
+  }
 
 }
