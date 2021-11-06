@@ -116,3 +116,20 @@
     }
   }
 }
+@media (max-width: 375px){
+  .registration-wrp{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .personal{
+    min-height: 0;
+  }
+  .ad{
+    width: 100%;
+    min-height: 360px;
+    margin-bottom: 96px;
+    &__title{
+      margin-top: 40px;
+    }
+  }
+}
