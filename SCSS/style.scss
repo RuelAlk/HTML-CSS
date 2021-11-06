@@ -515,13 +515,15 @@ font-family: Lato;
   /* CATALOG/BREADCRUMB */
 
   .breadcrumb-wrp{
+
     flex-direction: column;
     justify-content: center;
   }
   .breadcrumbs-title{
-    margin: 0 auto 32px;
+    margin: 0 auto 0;
   }
   .breadcrumbs{
+    margin-top: 32px;
     padding: 0;
   }
   /* PAGINATION */
