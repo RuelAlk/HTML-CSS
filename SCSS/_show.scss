@@ -33,10 +33,13 @@
   }
 }
 @media (max-width: 375px){
-  .show__img{
-    margin-top: -15%;
-    margin-left: -20%;
-    object-fit: cover;
-    max-width: 100%;
+  .show{
+    background-image: url("images/bigItem1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    &__img{
+      display: none;
+    }
   }
 }

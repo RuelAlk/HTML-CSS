@@ -59,7 +59,7 @@
   &__btn{
     text-align: center;
     width: 212px;
-    padding: 14.5px;
+    padding: 9px 14.5px;
     background-color: #fff;
     border: 2px solid #F26376;
     color: #F26376;
@@ -102,6 +102,38 @@
     width: 156px;
     border: none;
     background-color: transparent;
+    &__btn{
+      display: block;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border: none;
+      font-size: 14px;
+      line-height: 16.8px;
+      color: #6F6E6E;
+      background-color: transparent;
+      text-align: left;
+      text-transform: uppercase;
+      position: relative;
+      &:hover{
+        color: #F16D7F;
+      }
+      &:hover svg{
+        fill: currentColor;
+      }
+      &:active{
+        color: black;
+      }
+      &:active svg {
+        fill: currentColor;
+      }
+      & svg{
+        fill: #6F6E6E;
+        position: absolute;
+        top: 40%;
+        left: 80%;
+      }
+    }
   }
   &__size{
     width: 134px;
@@ -194,6 +226,64 @@
     border-bottom: 1px solid #EAEAEA;
     &__line{
       width: 85%;
+    }
+  }
+}
+@media (max-width: 375px){
+  .description {
+    max-width: 375px;
+    margin: 0 0 64px;
+    padding: 54px 25px 0;
+    box-sizing: border-box;
+    &__price{
+      margin-bottom: 30px;
+    }
+    &__line{
+      width: 60%;
+    }
+    &__txt{
+      line-height: 20px;
+    }
+    &__btn{
+      margin: 0 auto 64px;
+    }
+  }
+  .description__filter{
+    margin-top: 28px;
+    margin-bottom: 44px;
+    &__color{
+      width: 98px;
+      &__btn{
+        font-size: 10px;
+        line-height: 12px;
+        & svg{
+          top: 40%;
+          left: 84%;
+        }
+      }
+    }
+    &__size{
+      width: 85px;
+      &__btn{
+        font-size: 10px;
+        line-height: 12px;
+        & svg{
+          top: 40%;
+          left: 80%;
+        }
+      }
+    }
+
+    &__quantity{
+      width: 71px;
+      &__btn {
+          font-size: 10px;
+          line-height: 12px;
+          & svg {
+              top: 40%;
+              left: 77%;
+          }
+      }
     }
   }
 }
